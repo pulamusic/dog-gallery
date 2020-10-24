@@ -4,9 +4,11 @@
 
 ---
 
-# a Tachyons flavored page that will feature a randomly shifting gallery of dogs
+# A Tachyons flavored page that will feature a randomly shifting image gallery of dogs.
 
-This should be fun.
+##*This should be fun.*
+
+---
 
 Nice. I've got a nice looking page with a header, a photo gallery, and a footer.
 
@@ -19,3 +21,9 @@ Nice. I've got a nice looking page with a header, a photo gallery, and a footer.
 * So, in addition to the API calls producing random images in the gallery, I should think of other options
   - some way to modulate and/or randomize the speed at which images change such as hover state
   - add some kind of CSS animation voodoo to the changing of images. Otherwise, it will probably be abrupt
+
+Very cool. The guy who created `dog-api` also has [an example on CodePen of how it works](https://codepen.io/elliottlan/pen/MNEWNx). I can definitely borrow from this, thank you.
+
+**Even better!** Here is [the same project coded with jQuery](https://codepen.io/elliottlan/pen/KOXKLG?editors=1010). It's a shit simple bit of code.
+
+---

@@ -12,6 +12,10 @@ main {
   margin: 0 15px;
 }
 
+header {
+  /*max-height: 500px;*/
+}
+
 header img {
   box-shadow: 3px 4px 10px #827f7f;
 }
@@ -19,6 +23,25 @@ header img {
 .lt-shadow {
   box-shadow: 2px 4px 13px #827f7f;
 }
+
+/*
+
+I just removed this from the HTML
+
+style="background-image: url(assets/img/037.jpg)";
+style="background-image: url(assets/img/0010.jpg)";
+
+*/
+
+/*
+#link-img-1 {
+  background-image: url(../../assets/img/0010.jpg);
+}
+
+#link-img-2 {
+  background-image: url(../../assets/img/037.jpg);
+}
+*/
 
 /*
  ====== tachyons ======
