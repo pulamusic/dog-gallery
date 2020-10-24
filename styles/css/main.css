@@ -1,0 +1,293 @@
+/*
+  code from https://tachyons.io/components/collections/posters/index.html
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6f2;
+}
+
+main {
+  margin: 0 15px;
+}
+
+header img {
+  box-shadow: 3px 4px 10px #827f7f;
+}
+
+.lt-shadow {
+  box-shadow: 2px 4px 13px #827f7f;
+}
+
+/*
+ ====== tachyons ======
+*/
+
+f:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.db {
+    display: block;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black {
+    color: #000;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+@media screen and (min-width: 30em) {
+    .w-25-ns {
+        width: 25%;
+    }
+
+    .w-50-ns {
+        width: 50%;
+    }
+}
+
+/* ====== header ====== */
+
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.br3 {
+    border-radius: .5rem;
+}
+
+.fw2 {
+    font-weight: 200;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.h3 {
+    height: 4rem;
+}
+
+.tracked {
+    letter-spacing: .1em;
+}
+
+.w3 {
+    width: 4rem;
+}
+
+.black-70 {
+    color: rgba(0, 0, 0, .7);
+}
+
+.pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 30em) {
+    .pv5-ns {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .f4-ns {
+        font-size: 1.25rem;
+    }
+}
+
+/* ====== footer ====== */
+
+.cover {
+    background-size: cover !important;
+}
+
+.bg-center {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.br2 {
+    border-radius: .25rem;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.white-60 {
+    color: rgba(255, 255, 255, .6);
+}
+
+.bg-black-80 {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.hover-white:hover {
+    color: #fff;
+}
+
+.hover-white:focus {
+    color: #fff;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pr2 {
+    padding-right: .5rem;
+}
+
+.pv5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ma2 {
+    margin: .5rem;
+}
+
+.ml3 {
+    margin-left: 1rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 60em) {
+    .tc-l {
+        text-align: center;
+    }
+}
