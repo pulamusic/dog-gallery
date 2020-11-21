@@ -24,24 +24,12 @@ header img {
   box-shadow: 2px 4px 13px #827f7f;
 }
 
-/*
-
-I just removed this from the HTML
-
-style="background-image: url(assets/img/037.jpg)";
-style="background-image: url(assets/img/0010.jpg)";
-
-*/
-
-/*
-#link-img-1 {
-  background-image: url(../../assets/img/0010.jpg);
+#arrow-line span {
+  font-size: 0.8em;
+  /*font-weight: 100;*/
 }
 
-#link-img-2 {
-  background-image: url(../../assets/img/037.jpg);
-}
-*/
+
 
 /*
  ====== tachyons ======

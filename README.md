@@ -6,7 +6,7 @@
 
 # A Tachyons flavored page that will feature a randomly shifting image gallery of dogs.
 
-##*This should be fun.*
+## *This should be fun.*
 
 ---
 

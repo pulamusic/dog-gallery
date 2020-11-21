@@ -22,8 +22,7 @@ shows the json response for an api call for a random dog
 // code borrowed from https://codepen.io/elliottlan/pen/MNEWNx
 
 // function to perform a get request
-function httpGet(theUrl)
-{
+function httpGet(theUrl) {
     const xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ) // false for synchronous request
     xmlHttp.send( null )
@@ -31,8 +30,7 @@ function httpGet(theUrl)
 }
 
 // function to get a random image
-function getRandomImage()
-{
+function getRandomImage() {
   const dogurl = 'https://dog.ceo/api/breeds/image/random'
 
   // get the json from the server
